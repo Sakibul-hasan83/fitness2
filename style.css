@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body{
 
@@ -58,3 +58,378 @@ align-items: center;
     border-radius: 50px;
     display: block;
 }
+
+
+
+
+/* joining area */
+
+
+
+.shape{
+
+    font-family: "Dancing Script", cursive;
+
+}
+
+.h2{
+
+    font-size: 80px;
+}
+
+.p{
+
+    font-size: 20px;
+    opacity: 50%;
+}
+.Joining-part{
+
+    margin-top: 80px;
+    
+     display:flex;
+     flex-direction: row;
+     justify-content:space-between;
+     margin-right: -200px;
+    
+
+}
+
+
+
+
+ .joining-options{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top:-60px;
+
+  
+    
+ }
+
+
+ 
+
+ .joining-button{
+
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    color: white;
+    background-color: tomato;
+  
+ }
+
+ .button-join{
+   width: 200px;
+    height: 50px;
+    background-color: tomato;
+    border-radius: 30px;
+
+ }
+ #button-download{
+background-color:#353131; 
+border: 1px solid white;
+ }
+
+
+ .joining-photo{
+
+  height: 600px;
+  width: 400px;
+   background-image: url(./images/Images\ 2.png);
+   background-repeat: no-repeat;
+   margin-right: 150px;
+  
+ }
+
+ .joining-token{
+
+    height: 80px;
+    width: 160px;
+    border: 2px solid white;
+    border-radius: 10px;
+    align-content: center;
+    backdrop-filter:blur(24px);
+ }
+
+
+
+ #joining-token1{
+ 
+   margin-left: 230px;
+   margin-top: 150px;
+ text-align:center;
+ align-items: center;
+ padding: 5px 5px;
+ padding:5px;
+
+
+
+ }
+#joining-token2{
+   
+margin-top: 150px;
+margin-left: -70px;
+display: flex;
+align-items: center;
+padding:5px 5px;
+text-align: center;
+padding:5px;
+
+}
+
+.circle{
+height: 40px;
+width: 40px;
+background-color: tomato;
+border-radius: 70%;
+
+}
+
+.joining-token{
+   
+   flex-direction: row;
+   justify-content: space-between;
+  
+
+}
+
+.habbit-title{
+
+   text-align: center;
+   margin-top: 100px;
+}
+
+
+
+
+/* Habbits part */
+
+.habbit-part{
+
+    margin-top: 100px;
+}
+.habbits img{
+    margin-top: 50px;
+     height:200px; 
+     width: 200px;
+     border-radius: 50%;
+    border: 1px solid rgb(83, 82, 80);
+  
+  }
+  .habbits{
+  
+     display: flex;
+     flex-direction:row;
+     justify-content: space-evenly;
+     text-align: center;
+  }
+  
+  .video-button{
+  
+     height: 40px;
+     width: 40px;
+      color:rgb(16, 54, 97);
+      background-color: tomato;
+      border-radius: 50%;
+  
+  }
+  
+  #run-photo{
+  
+     height: 250px;
+     width: 250px;
+     border-radius: 30px;
+  }
+  
+  .run-and-extra{
+  
+     margin-top: 100px;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 30px;
+  backdrop-filter: blur(24px);
+  border-right-color: #afa6a6;
+  
+  background-color: rgb(34, 34, 34);
+  border-radius: 12px;
+  
+  
+  }
+  
+  .run-and-extra-part{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: -50px;
+  
+  
+  }
+
+  .options-p{
+
+    opacity: 50%;
+  }
+
+
+
+  /* training and exercise  */
+
+
+.training-exercise{
+
+    margin-top: 100px;
+ }
+ 
+ .training-six-photo{
+ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    border-radius: 10px;
+ }
+ 
+ .training-six-photo img{
+ 
+    height: 100%;
+    width: 100%;
+ }
+ 
+ .six-photo-div{
+    
+  margin-top: 100px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+  margin-left:;
+ }
+
+ 
+
+
+ /* BMI */
+
+
+.h3{
+
+    font-size: 20px;
+    font-weight: 800px;
+    margin-top:50px;
+    text-align: center;
+ }
+ 
+ .bmi{
+ 
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    background-color:rgb(34, 34, 34);
+    gap:100px;
+   
+    
+ }
+ 
+ table , th , td{
+ 
+         
+             border: 1px solid rgb(116, 111, 111);
+             border-collapse: collapse;
+             padding: 10px 10px;
+ 
+ }
+ 
+ .table{
+ 
+    margin-top:70px;
+    text-align: center;
+    margin-left: 70px;
+ }
+ 
+ 
+ td{
+ 
+    color: rgb(163, 167, 167);
+ }
+ 
+ 
+
+ 
+ .first-two-form{
+ 
+ display: flex;
+ 
+   
+ }
+ 
+ .second-two-form{
+ 
+    display: flex;
+    margin-top: 5px;
+    
+ }
+ 
+ 
+ #sex-type{
+ 
+ width: 177px;
+ height: 46px;
+ border-radius: 10px;
+ background-color:rgba(255, 255, 255, 0.1);
+ color: white;
+ }
+ 
+ 
+ 
+ 
+ #third-form{
+ 
+    height: 40px;
+    width: 354px;
+    border-radius: 10px;
+    margin-top: 5px;
+    background-color: #6d6d6d;
+    color: white;
+ 
+ }
+ 
+ 
+ 
+ 
+ #hwa{
+ 
+    height: 40px;
+ 
+    border-radius: 10px;
+
+    background-color: rgba(255, 255, 255, 0.1);
+    gap:10px;
+ 
+  
+ }
+ 
+ 
+ .form-container{
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ }
+ 
+ #Calculate-button{
+ 
+ 
+    margin-top: 10px;
+ }
+ 
+ 
+ 
+ 
+ 
