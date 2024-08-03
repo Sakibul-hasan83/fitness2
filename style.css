@@ -438,6 +438,7 @@ border-radius: 70%;
     text-align: center;
  
     margin-top: 100px;
+    align-items: center;
  }
  
  
@@ -449,7 +450,8 @@ border-radius: 70%;
        display: grid;
        grid-template-columns: 1fr 1fr 1fr ;
        border-radius: 10px;
-       gap: 20px;
+
+             gap: 20px;
         padding: 20px 20px;
         background-color: rgb(39, 38, 38);
        
