@@ -54,7 +54,6 @@ align-items: center;
 
 .nav-options{
 
-    border:.5px solid white;
     border-radius: 50px;
     display: block;
 }
@@ -515,4 +514,284 @@ border-radius: 70%;
     color: rgb(67, 99, 131);
  }
  
+
  
+
+ .p-for-smalldevice{
+
+   display: none;
+   opacity: 50%;
+   font-size: 20px;
+ }
+
+
+ .for-bmi-calculator{
+
+   margin-left: 200px;
+}
+
+ /* responsive style */
+ /* responsive style */
+ /* responsive style */
+ /* responsive style */
+ /* responsive style */
+
+
+
+
+@media screen and (max-width:576px){
+
+/* body */
+
+   body{
+       
+      padding-left: 15px;
+      padding-top: 50px;
+      padding-right: 15px;
+
+      background-color: rgb(17, 17, 17);
+      color: white;
+      font-family: "Inter", sans-serif;
+  }
+
+/* buttons */
+
+  .button{
+
+   display: none;
+  }
+
+
+/* bar icon */
+
+
+#bar-icon{
+
+   display: block;
+   height: 20px;
+   width: 20px;
+   font-weight: 800;
+   margin-left:;
+}
+
+
+
+.shape{
+
+   font-family: "Dancing Script", cursive;
+   font-size: 40px;
+
+}
+
+.h2{
+
+   font-size: 50px;
+   margin-bottom: 100px;
+}
+
+.p{
+   font-size: 15px;
+   opacity: 50%;
+   display: none;
+}
+
+
+
+.Joining-part{
+
+   display: flex;
+   flex-direction: column;
+}
+
+.joining-options{
+
+   display: flex;
+   flex-direction: column;
+}
+
+
+/* buttons */
+
+
+.joining-button{
+
+   height: 50px;
+   width: 180px;
+   border-radius: 30px;
+   color: white;
+   background-color: tomato;
+   margin-top:100px
+ 
+}
+
+.button-join{
+  width: 180px;
+   height: 50px;
+   background-color: tomato;
+   border-radius: 30px;
+  
+}
+
+#button-download{
+
+background-color:#353131; 
+border: 1px solid white;
+}
+
+.p-for-smalldevice{
+
+display: block;   
+margin-top: -40px;
+font-size: 10;
+
+}
+
+
+/* tokens */
+
+
+.joining-photo{
+
+
+   margin-top: 100px;
+   margin-left:30px;
+}
+
+
+
+#joining-token1{
+ 
+   margin-left: 200px;
+   margin-top: 50px;
+ text-align:center;
+ align-items: center;
+ padding: 5px 5px;
+ padding:5px;
+
+
+
+ }
+#joining-token2{
+   
+margin-top: 150px;
+margin-left: -15px;
+display: flex;
+align-items: center;
+padding:5px 5px;
+text-align: center;
+padding:5px;
+
+}
+
+
+.joining-token{
+
+   height: 60px;
+   width: 140px;
+
+   border-radius: 10px;
+   align-content: center;
+   backdrop-filter:blur(24px);
+   text-align: center;
+}
+
+.for-token1{
+
+margin-top: -6px;
+
+}
+
+.habbits{
+   display: flex;
+   flex-direction: column;
+}
+
+
+ 
+.run-and-extra{
+  
+   margin-top: 100px;
+
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding: 30px 30px;
+backdrop-filter: blur(24px);
+border-right-color: #afa6a6;
+
+background-color: rgb(34, 34, 34);
+border-radius: 12px;
+height: 500px;
+
+
+
+}
+
+
+#run-button{
+
+   height: 50px;
+   width: 300px;
+   margin-left: 10px;
+   margin-top: 1px;
+}
+
+#run-photo{
+
+   height: 220px;
+   width: 320px;
+   margin-top: 15px;
+}
+
+.training-six-photo{
+ 
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   border-radius: 10px;
+}
+
+
+.for-bmi-calculator{
+
+   margin-left:5px;
+}
+
+
+.bmi{
+
+   display: flex;
+   flex-direction: column;
+   
+}
+
+
+.trainer-six-photo{
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.footer{
+
+   display: flex;
+   flex-direction: column;
+}
+
+
+.footer-item-opacity{
+
+
+   opacity: 50%;
+}
+
+.calculate-bmi{
+
+
+   align-items: center;
+   align-content: cent;
+   margin-left: 8px;
+}
+
+
+}
